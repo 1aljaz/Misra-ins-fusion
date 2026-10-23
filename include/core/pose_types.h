@@ -13,4 +13,9 @@
     typedef struct{
         float32_t w, x, y, z;
     } Quaternion_t;
+
+    typedef struct {
+        float32_t yaw, roll, pitch;
+    } EulerAngle_t;
+    
 #endif

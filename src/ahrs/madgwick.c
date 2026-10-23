@@ -1,5 +1,7 @@
 #include "../../include/ahrs/madgwick.h"
 #include "../../include/ahrs/vector_math.h"
+#include <math.h>
+
 #define BETA 0.1f
 
 void MadgwickUpdate(const IMU_Data_t* imu_data, Quaternion_t* quaternion){
